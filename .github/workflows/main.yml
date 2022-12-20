@@ -14,8 +14,6 @@ jobs:
         run: | 
           pip install coverage
           pip install genbadge[all]
-      - name: report coverage
-        run: |
           coverage run
           coverage xml
       - name: generate badge
